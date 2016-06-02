@@ -1,0 +1,2 @@
+
+ CROSS=arm-none-eabi ./configure --host=arm-none-eabi --build=x86_64-pc-linux-gnu --target=arm-none-eabi CFLAGS=" -lc -lrdimon -specs=rdimon.specs -mcpu=cortex-m3 -mthumb -mfloat-abi=soft"
